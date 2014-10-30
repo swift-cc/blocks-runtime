@@ -28,6 +28,7 @@ MODULE_NAME = libblocks-rt
 
 # includes to add to 
 OBJC_INCLUDES = -I. \
-				-I$(ANDROID_NDK)/platforms/android-18/arch-arm/usr/include
+				-I$(ANDROID_NDK)/platforms/android-18/arch-arm/usr/include \
+				-include config.h
 	
 SYSROOT = .
